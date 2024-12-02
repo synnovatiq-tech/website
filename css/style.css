@@ -1,11 +1,63 @@
 /********** Template CSS **********/
 :root {
-    --primary: #1363C6;
-    --secondary: #15ACE1;
+    --primary: #0d1712;
+    --secondary: #0d1712;
     --light: #F4F7FE;
     --dark: #14183E;
 }
 
+.bg-primary {
+    background-color: #0d1712 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d1712;
+    border-color: #0d1712;
+}
+
+.btn-outline-primary {
+    /* color: #0d1712; */
+    border-color: #0d1712;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d1712;
+}
+
+.icon-primary {
+    color: #208653;
+    /* background-color: #fff; */
+    /* border-color: #0d1712; */
+}
+
+.icon-primary:hover {
+    color: #fff;
+    /* background-color: #0d1712; */
+    border-color: #0d1712;
+} 
+
+.bg-dark {
+    background-color: #052717 !important;
+}
+
+.modal-fullscreen .modal-header {
+    background-color: #0527177a !important;
+}
+
+.modal-body {
+    background-color: #0527177a !important;
+}
+
+.btn-primary:hover {
+    color: #0d1712;
+    background-color: #fff;
+    border-color: #0d1712;
+}
+
+.text-primary {
+    color: #0d1712 !important;
+}
 
 /*** Spinner ***/
 #spinner {
